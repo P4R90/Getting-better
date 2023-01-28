@@ -1,0 +1,107 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+
+header{
+    position: absolute;
+    background-color: rgb(192, 51, 162);
+    padding: 0px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header h1{
+    color: white;
+    border-top: solid white;
+    border-bottom: solid white;
+    border-width: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+nav{
+    background-color: #F4F4F4;
+    padding: 20px;
+    position: sticky;
+    top: 100px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+
+.banner img{
+    max-width: 100%;
+    
+}
+
+
+.copyright{
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+}
+
+.banner .welcome{
+    text-align: center;
+    background: rgb(102, 9, 82);
+    font-family: helvetica;
+    color: white;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 250px;
+    left: 8%;
+    top: 40%;
+    border: solid white 10px;
+    
+}
+
+
+html body section.banner div.welcome input{
+    width: 75%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+html body section.banner div.welcome select#country{
+    width: 75%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+html body section.banner div.welcome p{
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(192, 51, 162);
+    padding: 30px;
+    width: 100%;
+    left: 0;
+}
